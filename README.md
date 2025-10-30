@@ -1,18 +1,21 @@
-# TutorFlow-Personalized-Math-Feedback
-Build a simple, open-source prototype that gives adaptive feedback to students learning math (starting with linear algebra concepts).
+# TutorFlow 🚀
 
-tutorflow/
-│
-├── README.md                 # Project overview, goals, how to run
-├── app.py                    # Streamlit main app
-├── prompts/
-│   ├── tutor_prompts.json    # Stored system and user prompts
-│   └── vibes.md              # Definitions of tone and interaction styles
-├── data/
-│   ├── examples.json         # Example math problems + feedback
-│   └── student_context.json  # Context memory (user profile, progress)
-├── utils/
-│   ├── context_engine.py     # Load and format context
-│   ├── prompt_engine.py      # Build the prompt dynamically
-│   └── vibe_engine.py        # Manage tone and personality
-└── requirements.txt
+**A personalized linear algebra tutor prototype using AI.**
+
+## Overview
+TutorFlow is a prototype educational technology project that provides **adaptive, vibe-coded feedback** to students learning linear algebra concepts. It demonstrates:
+
+- **Prompt Engineering**: structured AI instructions for step-by-step guidance.
+- **Context Engineering**: simple student memory to personalize responses.
+- **Vibe Coding**: encouraging, Socratic, or analytical AI “tones.”
+
+## Features (MVP)
+1. Input a math problem or reflection.
+2. Receive AI-generated step-by-step feedback.
+3. Store student interactions for context-aware responses.
+
+## Setup
+1. Clone the repo:
+```bash
+git clone https://github.com/YOUR_USERNAME/tutorflow.git
+cd tutorflow
